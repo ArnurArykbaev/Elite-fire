@@ -1,0 +1,58 @@
+.first-block {
+    position: relative;
+    display: block;
+    content: '';
+    
+    ::after {
+        position: absolute;
+        background-image: url('img/bg-light.png');
+        background-size: contain;
+    }
+
+    .sidebar {
+
+        h1 {
+            margin-bottom: 30px;
+            background: linear-gradient(190deg, #FFFFFF 49.37%, rgba(255, 255, 255, 0) 109.78%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subheader {
+            font-size: 36px;
+            color: $yellow-color;
+            margin-bottom: 85px;
+
+            span {
+                font-size: 18px;
+            }
+        }
+        .advantages {
+            display: flex;
+            flex-direction: row;
+            column-gap: 80px;
+
+            &-block {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                .icon {
+                    margin-bottom: 15px;
+                }
+                p {}
+            }
+        }
+    }
+    .fireplace {
+        &-image {
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: -1;
+        }
+    }
+}

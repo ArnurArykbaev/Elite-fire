@@ -1,0 +1,23 @@
+.sixth-block {
+    .accessories-and-solutions {
+        display: flex;
+        flex-direction: row;
+        column-gap: 120px;
+        margin-top: 110px;
+
+        h3 {
+            margin-bottom: 30px;
+        }
+
+        .accessories {
+            width: 50%;
+        }
+        .solutions {
+            width: 50%;
+        }
+    }
+}
+.description {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}

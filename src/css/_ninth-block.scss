@@ -1,0 +1,200 @@
+.ninth-block {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+    margin-top: 80px;
+
+    h2 {
+        text-align: center;
+        background: linear-gradient(180.07deg, #FFFFFF 36.17%, rgba(232, 232, 232, 0) 97.71%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    
+    .constructor-section {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        height: 100%;
+
+        column-gap: 80px;
+        margin-top: 65px;
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            img {}
+            .properties-wrapper {
+                display: flex;
+                flex-direction: row;
+                column-gap: 200px;
+                margin-top: 65px;
+
+                .properties-item {
+                    display: flex;
+                    flex-direction: column;
+
+                    &__title {
+                        font-family: $font-regular;
+                        font-size: 12px;
+                        line-height: 32px;
+                        letter-spacing: 0.135em;
+                        text-transform: uppercase;
+                        opacity: 0.5;
+                    }
+                    &__value {
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 32px;
+                    }
+                    .color_picker {
+                        width: 30px;
+                        aspect-ratio: 1/1;
+                        border-radius: 50%;
+                        background-color: #B8542A;
+                    }
+                }
+            }
+        }
+        &__right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .constructor-block {
+                display: flex;
+                flex-direction: column;
+
+                .length {
+                    &-range {
+                        display: flex;
+                        flex-direction: row;
+
+                        &__value {
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 47px;
+                            white-space: nowrap;
+                        }
+
+                        &__picker {
+                            position: relative;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            width: 400px;
+                            padding:  0 40px;
+
+                            .inner-line {
+                                width: 280px;
+                                border-top: 2px solid;
+                                border-color: $yellow-color;
+                            }
+                            .picker {
+                                position: absolute;
+                                left: 200px;
+                                width: 30px;
+                                height: 30px;
+                                background-color: $yellow-color;
+                                z-index: 2;
+                            }
+                            .outer-line {
+                                width: 100%;
+                                border-top: 2px solid #646464;
+                                z-index: -1;
+                            }
+                        }
+                    }
+                }
+
+                .panel {
+                    &-picker {
+                        display: flex;
+                        flex-direction: row;
+                        column-gap: 20px;
+                        margin-top: 10px;
+                    }
+                }
+
+                .functions {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+
+                    &-wrapper {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-top: 30px;
+
+                        &__column {
+                            .functions_item {
+                                display: flex;
+                                flex-direction: row;
+                                column-gap: 80px;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                p {
+                                    font-size: 14px;
+                                    line-height: 30px;
+                                }
+                                .checkbox {
+                                    width: 20px;
+                                    height: 20px;
+                                    border: 1px solid;
+                                    border-color: $yellow-color;
+                                    border-radius: 4px;
+                                }
+                                .active {
+                                    background-image: url('img/icons/checkbox_fill.svg');
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .constructor-title {
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 32px;
+                    letter-spacing: 0.2em;
+                    opacity: 0.5;
+                    text-transform: uppercase;
+                }
+            }
+            .properties-wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 65px;
+
+                .properties-item {
+                    display: flex;
+                    flex-direction: column;
+
+                    &__title {
+                        font-family: $font-regular;
+                        font-size: 12px;
+                        line-height: 32px;
+                        letter-spacing: 0.135em;
+                        text-transform: uppercase;
+                        opacity: 0.5;
+                    }
+                    &__value {
+                        font-weight: 400;
+                        font-size: 36px;
+                        line-height: 32px;
+                        color: $yellow-color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.second-block {
+    margin-top: 240px;
+    h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        background: linear-gradient(190deg, #FFFFFF 28.79%, rgba(255, 255, 255, 0) 98.2%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    .subtitle {
+        max-width: 560px;
+        font-family: $font-light;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .fire {
+        position: relative;
+        margin-top: -30px;
+        &:before {
+            position: absolute;
+            display: block;
+            top: -350px;
+            content: "";
+            background-image: url('img/fire-light.png');
+            background-repeat: no-repeat;
+            width: 100%;
+            aspect-ratio: 1/1;
+            z-index: -1;
+        }
+        img {}
+    }
+    .properties {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 140px;
+        .property {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            column-gap: 30px;
+            max-width: 240px;
+            &-icon {}
+            p {
+                font-size: $font-light;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}

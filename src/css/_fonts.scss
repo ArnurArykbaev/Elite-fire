@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'ScaniaSansCYHeadline';
+    src: url('fonts/ScaniaSansCYHeadline-Regular.eot');
+    src: local('fonts/Scania Sans CY Headline Regular'), local('fonts/ScaniaSansCYHeadline-Regular'),
+        url('fonts/ScaniaSansCYHeadline-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ScaniaSansCYHeadline-Regular.woff2') format('woff2'),
+        url('fonts/ScaniaSansCYHeadline-Regular.woff') format('woff'),
+        url('fonts/ScaniaSansCYHeadline-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ScaniaSansCY-Bold';
+    src: url('fonts/ScaniaSansCY-Bold.eot');
+    src: local('fonts/Scania Sans CY Bold'), local('fonts/ScaniaSansCY-Bold'),
+        url('fonts/ScaniaSansCY-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ScaniaSansCY-Bold.woff2') format('woff2'),
+        url('fonts/ScaniaSansCY-Bold.woff') format('woff'),
+        url('fonts/ScaniaSansCY-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LabGrotesque-Regular';
+    src: url('fonts/LabGrotesque-Regular.eot');
+    src: local('fonts/Lab Grotesque Regular'), local('fonts/LabGrotesque-Regular'),
+        url('fonts/LabGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/LabGrotesque-Regular.woff2') format('woff2'),
+        url('fonts/LabGrotesque-Regular.woff') format('woff'),
+        url('fonts/LabGrotesque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LabGrotesque-Thin';
+    src: url('fonts/LabGrotesque-Thin.eot');
+    src: local('fonts/Lab Grotesque Thin'), local('fonts/LabGrotesque-Thin'),
+        url('fonts/LabGrotesque-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/LabGrotesque-Thin.woff2') format('woff2'),
+        url('fonts/LabGrotesque-Thin.woff') format('woff'),
+        url('fonts/LabGrotesque-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LabGrotesque-Light';
+    src: url('fonts/LabGrotesque-Light.eot');
+    src: local('fonts/Lab Grotesque Light'), local('fonts/LabGrotesque-Light'),
+        url('fonts/LabGrotesque-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/LabGrotesque-Light.woff2') format('woff2'),
+        url('fonts/LabGrotesque-Light.woff') format('woff'),
+        url('fonts/LabGrotesque-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}

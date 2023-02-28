@@ -1,0 +1,52 @@
+.footer {
+    margin-top: 80px;
+
+    h2 {
+        background: linear-gradient(190deg, #FFFFFF 37.36%, rgba(255, 255, 255, 0) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    .contacts-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 80px;
+
+        &__column {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            column-gap: 220px;
+
+            .column {
+                display: flex;
+                flex-direction: column;
+
+                .contact {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 40px;
+    
+                    p.contact-title {
+                        font-size: 14px;
+                        line-height: 36px;
+                        color: $text-grey;
+                    }
+                    p.contact-value {
+                        font-size: 22px;
+                        line-height: 36px;
+                    }
+                }
+
+                button {
+                    margin-top: 60px;
+                }
+            }
+        }
+
+
+    }
+
+}

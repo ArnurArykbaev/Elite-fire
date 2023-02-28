@@ -1,0 +1,32 @@
+.fourth-block {
+    position: relative;
+    height: 700px;
+
+    h2 {
+        font-weight: 250;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        background: linear-gradient(247.29deg, #FFFFFF 35.25%, rgba(255, 255, 255, 0) 104.81%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        margin-bottom: 30px;
+    }
+    p {
+        font-family: $font-light;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 33px;
+        text-align: center;
+        margin: auto;
+        max-width: 650px;
+    }
+    img {
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+    }
+}
